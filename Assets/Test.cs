@@ -13,6 +13,11 @@ public class Test : MonoBehaviour
         array[3] = 40;
         array[4] = 50;
 
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log(array[i]);
+        }
+
         for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
